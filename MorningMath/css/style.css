@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+h1{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+}
+p{
+  font-size: 32px;
+  text-align: center;
+}
+.body{
+
+}
+.resultsText{
+  display: none;
+  margin-top: 25px;
+  text-align: center;
+  color: green;
+}
+#submitButton,
+#generateButton{
+  margin-left: 35%;
+  margin-top: 25px;
+  width: 30%;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 15px;
+}
+
+
+#submitButton{
+  display: none;
+  background-color: green;
+
+}
+#generateButton{
+  background-color: red;
+
+}
+#table{
+  display: none;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20px;
+
+
+}
+
+.firstNumber,
+.operator,
+.secondNumber,
+.equal,
+.result{
+  width: 20%;
+}
+
+.row,
+.answer {
+  margin-top: 15px;
+  margin-left: 25%;
+  text-align: center;
+  background-color: white;
+  color: black;
+  width: 50%;
+  font-size: 30px;
+  border: 3px solid black;
+}
